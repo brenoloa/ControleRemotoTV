@@ -1,0 +1,4 @@
+##
+ Criei uma classe televisão com atributos de volume, canal e ligado, no construtor implementei a interface grafica com JFrame, e nos metódos defini Aumento/Decremento de canais e volumes utilizando a variavel de JLabel(que escreve na tela) em cada método eu setei essa variavel de acordo com a função por exemplo: JLabel.setText("Canal/Volume" +canal/volume) 
+##
+Na classe controle remoto eu criei um atributo tv pra puxar a variavel de televisão que foi definida no Main. pra poder utilizar os metodos de televisão ao pressionar os botões, então criei a interface grafica novamente e na implementação dos metodos dos botões eu apenas puxei o metodo ja criado em tv. exemplo: metodo aumentar canal { tv.aumentarCanal() } que foram conectados aos botões através do ActionListener.
